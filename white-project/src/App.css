@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Meow+Script&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+.AppHeader{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 4px 4px rgba(151, 149, 149, 0.5);
+
+}
+.ShoppingCartIcon{
+    margin-right: 25px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.pageContent{
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 8px;
+}
+.AppFooter{
+    height: 60px;
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.itemCardBadge,
+    .itemCard {
+    margin:3px;
+}
+.itemCardImage{
+    height: 280px !important;
+    width: 250px !important;
+   
+}
+    
+.appMenu{
+    border: none;
+}
+.productContainer{
+    padding: 10px;
+}
+
